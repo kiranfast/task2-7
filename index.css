@@ -1,0 +1,18 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.dummy{
+    overflow: hidden;
+}
+input{
+    font-size: 17px;
+    height: 25px;
+}
+
+.email input{
+    width: 445px;
+}
+.container{
+    background-color: skyblue;
+}
+

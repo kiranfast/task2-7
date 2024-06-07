@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+       <div>
+        <b><lable style="font-size: 20px;"> Name <span style="color: red;"> * </span></lable></b><br>
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="name" placeholder="Last"><br>
+        <br>
+        <b><lable> EMail  <span style="color: red;"> * </span></lable></b>
+        <br>
+        <div class="email">
+        <input type="email" name="email">
+        </div>
+        <br>
+        <div class="ratting">
+            <div>
+                <b>Your Experience </b><span style="color: red;"> * </span>
+                </div>
+            <span onclick="ProcessRating(this)" id="star-1" data-index="1" data-status="0">⭐</span>
+            <span onclick="ProcessRating(this)" id="star-1" data-index="2" data-status="0">⭐</span>
+            <span onclick="ProcessRating(this)" id="star-1" data-index="3" data-status="0">⭐</span>
+            <span onclick="ProcessRating(this)" id="star-1" data-index="4" data-status="0">⭐</span>
+            <span onclick="ProcessRating(this)" id="star-1" data-index="5" data-status="0">⭐</span>
+            </div>
+            <div class="rating-display">
+                OverAll, how would you rate you experience with us? 
+                </div>
+              <div class="satisfaction">
+                <div class="item1">
+                    <b><p> How Satisfied are you With <span style="color: red;">* </span></p></b>
+                    <b><p> 1. Purchase :  </p></b>
+                    <input type="radio" name="radio"> Unsatisfied
+                    <input type="radio" name="radio"> Satisfied
+                    <input type="radio" name="radio"> Neutral
+                    <input type="radio" name="radio"> satisfied
+                    <input type="radio" name="radio"> Very Satisfied
+                    <b><p> 2. Service :  </p></b>
+                    <input type="radio" name="radio"> Unsatisfied
+                    <input type="radio" name="radio"> Satisfied
+                    <input type="radio" name="radio"> Neutral
+                    <input type="radio" name="radio"> satisfied
+                    <input type="radio" name="radio"> Very Satisfied
+                    <b><p> 3. Company Over All :  </p></b>
+                    <input type="radio" name="radio"> Unsatisfied
+                    <input type="radio" name="radio"> Satisfied
+                    <input type="radio" name="radio"> Neutral
+                    <input type="radio" name="radio"> satisfied
+                    <input type="radio" name="radio"> Very Satisfied
+                    <b><p> How luckly are you to <span style="color: red;">* </span></p></b>
+                    <b><p> 1. Buy from us Again :  </p></b>
+                    <input type="radio" name="radio"> Very Unlikely
+                    <input type="radio" name="radio"> Unlikely
+                    <input type="radio" name="radio"> Neutral
+                    <input type="radio" name="radio"> Likely
+                    <input type="radio" name="radio"> Very Likely
+                    <b><p> 2. Recommend Our Product to others :  </p></b>
+                    <input type="radio" name="radio"> Very Unlikely
+                    <input type="radio" name="radio"> Unlikely
+                    <input type="radio" name="radio"> Neutral
+                    <input type="radio" name="radio"> Likely
+                    <input type="radio" name="radio"> Very Likely
+                    <b><p> 3. Recommend Our Company to Others :  </p></b>
+                    <input type="radio" name="radio"> Very Unlikely
+                    <input type="radio" name="radio"> Unlikely
+                    <input type="radio" name="radio"> Neutral
+                    <input type="radio" name="radio"> Likely
+                    <input type="radio" name="radio"> Very Likely
+                </div>
+                <div> 
+                   <b> Additional Comments or Suggestions</b><br>
+                    <textarea>
+                        </textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                </div>
+            </div>
+</body>
+</html>
